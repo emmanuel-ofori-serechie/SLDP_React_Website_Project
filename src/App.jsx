@@ -19,7 +19,8 @@ function App() {
       <h1>TunePad</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          The amount of rizz Mog Manuel have is {count}
+          {count}
+          {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
